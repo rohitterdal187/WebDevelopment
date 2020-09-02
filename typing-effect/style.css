@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+h1{
+    color: #FF6600;
+    font-family: 'Courier New', Courier, monospace;
+    animation: type 3s steps(16);
+    animation-fill-mode: both;
+    border-right: 4px solid;
+    width: 16ch;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+@keyframes type{
+    0%{
+        width: 0ch;
+    }
+    50%{
+        width: 16ch;
+    }
+    100%{
+        width: 0ch;
+    }
+}
