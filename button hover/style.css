@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.btn{
+    display: block;
+    margin-top: 150px;
+    margin-left: 600px;
+    width: 240px;
+    height: 70px;
+    cursor: pointer;
+}
+
+.btn1{
+    background-color: white;
+    border-radius: 5px;
+    transition: 0.5s linear;
+}
+.btn1:hover{
+background-color: #00FFFF;
+box-shadow: 0px 10px 10px #00FFFF;
+}
+
+.btn2{
+    background-color:#FF0099 ;
+    border-radius: 5px;
+    border: none;
+    transition: 0.5s linear;
+}
+
+.btn2:hover{
+transform: rotateX(20deg);
+box-shadow: 0px 10px 10px #FF0099;
+}
